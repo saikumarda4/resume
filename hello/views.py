@@ -18,7 +18,7 @@ import time
 def index(request):
     
 	
-		driver = webdriver.Chrome("F:\\z\\chromedriver_win32\\chromedriver.exe")
+	driver = webdriver.Chrome("F:\\z\\chromedriver_win32\\chromedriver.exe")
 
 	driver.get('https://www.naukri.com/nlogin/login')
 	time.sleep(5)
